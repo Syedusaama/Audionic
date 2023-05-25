@@ -478,7 +478,7 @@ ul.dropdown li a:hover {
 /* Main Banner CSS */
 
 .mainBanner {
-    background-size: contain;
+    background-size: cover;
     background-color: #f8f8f8;
     background-position: center;
     height: 100vh;
@@ -515,7 +515,7 @@ ul.dropdown li a:hover {
 .ref-btn{
     padding: 55px 150px;
     border-radius: 52px;
-    background-color: #0084e9;
+    background-color: #e90b00;
     color: #fff;
     font-size: 85px;
     font-weight: 600;
@@ -570,10 +570,21 @@ ul.dropdown li a:hover {
     padding: 50px 0px;
 }
 .hash h2{
-    color: #0084e9;
+    color: #e90b00;
     text-align: center;
     font-size: 80px;
 }
+.aff-img{
+    line-height: 0px;
+}
+.aff-img img{
+    background-size: cover;
+    background-color: #f8f8f8;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
 .container-get{
     display: flex;
     flex-direction: row;
@@ -583,7 +594,7 @@ ul.dropdown li a:hover {
 .bg-get{
     background-image: url(/assets/images/Referral\ Page.jpg);
     background-size: cover;
-    background-color: #f8f8f8;
+    background-color: #e90b00;
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
