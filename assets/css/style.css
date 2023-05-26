@@ -525,7 +525,38 @@ ul.dropdown li a:hover {
     left: 30%;
     text-transform: uppercase;
 }
-.work{
+.earn-head{
+    text-align: center;
+    padding: 40px 0px;
+}
+.earn-head h2{
+    font-size: 103px;
+    font-weight: 600;
+    color: #000;
+}
+.earn-head p{
+    font-size: 45px;
+    font-weight: 400;
+    color: #000;
+}
+.earn-desc{
+    display: flex;
+    flex-direction: row;
+    padding: 71px;
+}
+
+.earn-desc h2{
+    font-size: 70px;
+    font-weight: 600;
+    color: #000;
+}
+.earn-desc p{
+    font-size: 46px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* .work{
     display: flex;
     flex-direction: row;
 }
@@ -565,7 +596,7 @@ ul.dropdown li a:hover {
 }
 .work2 p{
     font-size: 47px;
-}
+} */
 
 .hash{
     background-color: #000;
@@ -591,7 +622,7 @@ ul.dropdown li a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .bg-get{
     background-image: url(/assets/images/Referral\ Page.jpg);
@@ -615,15 +646,23 @@ ul.dropdown li a:hover {
     text-decoration: none;
     margin-top: 70px;
 }
-.get-one h2{
-    font-size: 130px;
+.get-one{
+    width: 50%;
 }
-
+.get-one h2{
+    font-size: 80px;
+}
+.get-one p{
+    font-size: 50px;
+}
+.get-two img{
+    margin-top: -70px;
+}
 /* accordion */
 .accordian-support-faq>li {
     list-style: none !important;
     margin-bottom: 25px;
-    box-shadow: 0 0 10px #ccc;
+    /* box-shadow: 0 0 10px #ccc; */
 }
 .accordian-support-faq h4 {
     font-size: 22px;
