@@ -932,7 +932,7 @@ ul.dropdown li a:hover {
         font-size: 15px;
     }
     .get-one h2 {
-        font-size: 48px;
+        font-size: 28px;
     }
     .get-one p {
         font-size: 24px;
@@ -944,6 +944,27 @@ ul.dropdown li a:hover {
         margin-top: 0px;
     }
     .get-one {
-        width: 0%;
+        width: 80%;
+        padding-left: 15px;
+    }
+    .get-one p {
+        font-size: 19px;
+        margin-right: -35px;
+        padding: 20px 0px;
+    }
+    .get-btn {
+        padding: 15px 12px;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-right: -35px;
+    }
+    .get-two img {
+        margin-top: -26px;
+    }
+    .bg-accordion {
+        padding: 0px 25px;
+    }
+    .accordion {
+        width: 100%;
     }
 }
