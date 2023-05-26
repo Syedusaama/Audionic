@@ -597,7 +597,38 @@ ul.dropdown li a:hover {
 .work2 p{
     font-size: 47px;
 } */
+.affiliate-work{
+    background-color: #2e2e2e;
+}
+.affiliate-work h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.aff-elem{
+    display: flex;
+    flex-direction: row;
+}
+.aff-flex{
+    display: flex;
+    align-items: center;
+}
 
+.aff-flex h2{
+    font-size: 124px;
+}
+.aff-flex p{
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 59px;
+    padding: 30px;
+}
+.aff-flex img{
+    position: relative;
+    right: 224px;
+    top: -87px;
+
+}
 .hash{
     background-color: #000;
     padding: 50px 0px;
