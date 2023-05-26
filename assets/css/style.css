@@ -599,35 +599,63 @@ ul.dropdown li a:hover {
 } */
 .affiliate-work{
     background-color: #2e2e2e;
+    padding-bottom: 50px;
 }
-.affiliate-work h2{
+.aff-elem h2{
     text-align: center;
     padding-top: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
     padding-bottom: 60px;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
 }
-.aff-elem{
-    display: flex;
-    flex-direction: row;
+.aff-head h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px 80px 0px;
 }
 .aff-flex{
     display: flex;
     align-items: center;
+    line-height: 0px;
 }
-
+.aff-flex-body{
+    border: 2px solid #fff;
+    border-radius: 59px;
+}
 .aff-flex h2{
     font-size: 124px;
 }
 .aff-flex p{
+    line-height: 27px;
     font-size: 24px;
+}
+.aff-flex-body {
     border: 2px solid #fff;
     border-radius: 59px;
-    padding: 30px;
+    text-align: center;
+    padding: 30px 40px;
+}
+.aff-flex {
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+}
+.aff-elem {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .aff-flex img{
-    position: relative;
-    right: 224px;
-    top: -87px;
-
+    margin-top: -70px;
 }
 .hash{
     background-color: #000;
@@ -823,3 +851,99 @@ ul.dropdown li a:hover {
 }
 
 @media (max-width: 824px) {}
+
+
+@media (max-width: 767px) {
+    .mainBanner {
+        height: 67vh;
+    }    
+    .first-ban {
+        display: flex;
+        flex-direction: column;
+        height: 67vh;
+    }
+    .ban-h1 {
+        font-size: 68px;
+        text-align: center;
+    }
+    .ref-program {
+        background-color: #000000;
+        padding: 30px 0px 30px 0px;
+    }
+    .ref-program h2 {
+        font-size: 35px;
+    }
+    .ref-program p{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 25px;
+    }
+    .ref-btn{
+    padding: 25px 45px;
+    border-radius: 52px;
+    background-color: #e90b00;
+    color: #fff;
+    font-size: 30px;
+    left: 23%;
+    }
+    .earn-head h2{
+        font-size: 58px;
+    }
+    .earn-head p{
+        font-size: 25px;
+    }
+    .earn-desc{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .earn-desc h2{
+        font-size: 35px;
+    }
+    .earn-desc p{
+        font-size: 24px;
+    }
+    .affiliate-work h2{
+        font-size: 48px;
+    }
+    .hash h2 {
+        font-size: 50px;
+    }
+    .aff-flex {
+        width: 40%;
+    }
+    .aff-flex-body {
+        border: 2px solid #fff;
+        border-radius: 45px;
+        text-align: center;
+        padding: 15px 15px;
+    }
+    .aff-elem {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .aff-flex img {
+        margin-top: -70px;
+        max-width: 50px;
+    }
+    .aff-flex p {
+        line-height: 27px;
+        font-size: 15px;
+    }
+    .get-one h2 {
+        font-size: 48px;
+    }
+    .get-one p {
+        font-size: 24px;
+        padding: 20px 0px;
+    }
+    .get-btn {
+        padding: 15px 12px;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .get-one {
+        width: 0%;
+    }
+}
