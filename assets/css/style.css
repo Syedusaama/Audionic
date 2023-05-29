@@ -26,7 +26,7 @@ p{
     
 }
 ::selection {
-    background: #ff5e14;
+    background: #e90b00;
     color: #fff;
     text-shadow: none;
 }
@@ -48,7 +48,7 @@ p{
 
 ::-webkit-scrollbar-thumb:vertical {
     border-radius: 10px;
-    background-color: #ff5e14;
+    background-color: #e90b00;
 }
 
 
