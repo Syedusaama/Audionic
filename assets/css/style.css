@@ -492,12 +492,15 @@ ul.dropdown li a:hover {
 .ban-h1{
     font-size: 105px;
     font-weight: bold;
+    color: #000;
 }
 
 .ref-program{
     background-color: #000000;
     padding: 70px 50px;
-    line-height: 0px;
+    line-height: 0px;    
+    text-align: center;
+
 }
 .ref-program h2{
     color: #fff;
@@ -521,8 +524,6 @@ ul.dropdown li a:hover {
     color: #fff;
     font-size: 85px;
     font-weight: 600;
-    position: relative;
-    left: 30%;
     text-transform: uppercase;
 }
 .earn-head{
@@ -555,48 +556,6 @@ ul.dropdown li a:hover {
     font-weight: 400;
     color: #000;
 }
-
-/* .work{
-    display: flex;
-    flex-direction: row;
-}
-.ref-work{
-    padding-bottom: 50px;
-}
-.ref-work h3{
-    color: #0084e9;
-    font-size: 44px;
-    text-align: center;
-    padding: 50px 0px;
-}
-.work1{
-    background-color: #0084e9;
-    width: 33%;
-    border-radius: 12px;
-    padding: 30px;
-    margin: 0px 50px;
-}
-.work1 h2{
-    padding-bottom: 30px;
-    font-size: 52px;
-}
-.work1 p{
-    font-size: 47px;
-}
-.work2{
-    background-color: #2e2e2e;
-    width: 33%;
-    border-radius: 12px;
-    padding: 30px;
-    margin: 0px 50px;
-}
-.work2 h2{
-    padding-bottom: 30px;
-    font-size: 52px;
-}
-.work2 p{
-    font-size: 47px;
-} */
 .affiliate-work{
     background-color: #2e2e2e;
     padding-bottom: 50px;
@@ -703,16 +662,18 @@ ul.dropdown li a:hover {
     font-size: 39px;
     font-weight: 600;
     text-decoration: none;
-    margin-top: 70px;
 }
 .get-one{
     width: 50%;
 }
 .get-one h2{
     font-size: 80px;
+    color: #fff;
 }
 .get-one p{
     font-size: 50px;
+    color: #fff;
+    padding-bottom: 50px;
 }
 .get-two img{
     margin-top: -70px;
@@ -720,38 +681,50 @@ ul.dropdown li a:hover {
 /* accordion */
 .accordian-support-faq>li {
     list-style: none !important;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #fff;
     margin-bottom: 25px;
     /* box-shadow: 0 0 10px #ccc; */
 }
 .accordian-support-faq h4 {
-    font-size: 22px;
-    /* font-family: "Poppins"; */
-    font-weight: bold;
+    font-size: 34px;
+    font-weight: 500;
     position: relative;
-    padding: 10px 35px 10px 15px;
-    background-color: #fff;
+    color: #fff;
     cursor: pointer;
+    padding-right: 25px;
 }
+.accordian-support-faq h4::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 300;
+  }
+  .accordian-support-faq .active h4::after {
+    transform: rotate(45deg);
+  }
+
+  .accordian-support-faq div {
+    display: none;
+  }  
+  .accordian-support-faq p {
+    font-size: 18px;
+    line-height: normal;
+    padding-top: 25px;
+    color: #fff;
+  }  
 .acc-text{
     background-color: #000000;
     padding: 100px 0px;
 }
 .acc-text h2{
     font-size: 86px;
-    width: 50%;
-    text-align: center;
-    padding-left: 104px;
 }
 .bg-accordion{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.accordion{
-    width: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    overflow: hidden;
 }
 .accordion__label, .accordion__content{
     padding: 18px 10px;
@@ -877,6 +850,7 @@ ul.dropdown li a:hover {
         font-size: 24px;
         line-height: 28px;
         padding-bottom: 25px;
+        padding-top: 25px;
     }
     .ref-btn{
     padding: 25px 45px;
@@ -884,7 +858,6 @@ ul.dropdown li a:hover {
     background-color: #e90b00;
     color: #fff;
     font-size: 30px;
-    left: 23%;
     }
     .earn-head h2{
         font-size: 58px;
@@ -905,6 +878,7 @@ ul.dropdown li a:hover {
     }
     .affiliate-work h2{
         font-size: 48px;
+        padding: 25px 0px;
     }
     .hash h2 {
         font-size: 50px;
@@ -977,9 +951,12 @@ ul.dropdown li a:hover {
         padding: 20px 0px;
     }
     .earn-cont{
-        padding: 50px 0px;
+        padding: 25px 0px;
     }
     .earn-head{
         padding: 0px;
+    }
+    .acc-text{
+        padding: 50px 0px;
     }
 }
